@@ -15,7 +15,9 @@ Ex:
 
 void Ex3(char *str){
 	//Your codes here
-	
+	int n;
+	n=sizeof(str)/sizeof(char);
+	printf("this is the number of string %d",n);
 }
 
 int main(int argc, char *argv[]) {
